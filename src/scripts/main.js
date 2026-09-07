@@ -2,7 +2,7 @@
 
 // write code here
 function formatFieldName(inputName) {
-  const withSpaces = inputName.replace(/(A-Z)/g, ' $1').trim();
+  const withSpaces = inputName.replace(/([A-Z])/g, ' $1').trim();
 
   return withSpaces
     .split(' ')
