@@ -20,7 +20,7 @@ inputs.forEach((input) => {
   const label = document.createElement('label');
 
   label.className = 'field-label';
-  label.setAttribute('for, input.id');
+  label.setAttribute('for', input.id);
   label.textContent = fieldName;
 
   input.parentElement.appendChild(label);
